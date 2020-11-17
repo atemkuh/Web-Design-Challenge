@@ -38,7 +38,7 @@ p{
 
 .navbar{
     position: absolute;
-    right: 30px;
+    right: 40px;
 }
 
 .navbar a{
@@ -95,6 +95,7 @@ body {
   z-index:1;
   padding: 20px;
   margin-left: 1.5px;
+
 }
 
 .div_table{
