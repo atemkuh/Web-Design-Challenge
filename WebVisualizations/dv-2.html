@@ -22,7 +22,7 @@
 <!-- content - Padding - Border - Margin -->
 
 <body>
-    <!-- Header links -->
+  <!-- start of header -->
   <div>
     <div class="row">
       <div class="col col-6 home_button">
@@ -44,7 +44,6 @@
                   aria-haspopup="true" aria-expanded="false">
                   Plots
                 </a>
-                <!-- links to other pages-->
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <a class="dropdown-item" href="dv-1.html">Max Temperature</a>
                   <a class="dropdown-item" href="dv-2.html">Humidity</a>
@@ -66,15 +65,28 @@
       </div>
     </div>
   </div>
-  <!-- main body content starts here -->
+  <!-- start of main body -->
   <div class="container">
     <br>
     <div class="row">
-      <!-- left panel -->
+      <!-- left side -->
+      <div class="col col-12 col-md-8 div_body">
+          <div class="div_body_lpanel">
+        <br>
+        <h1>Humidity</h1>
+        <hr>
+        <a href="dv-2.html"><img src="images/Fig2.png" alt="Latitude vs. Temperature"></a>
 
+        <p>
+          Correlation between Humidity and latitude.
+        </p>
+        <hr>
+      </div>
+      </div>
       <!-- left panel end -->
       <!-- rigth panel -->
-      <div class="col col-12 col-md-4 div_body">
+      <div class="col col-12 col-md-4 div_bodybdy">
+          <div class="div_body_rpanel">
         <br>
         <h2>Visualizations</h2>
         <hr>
@@ -93,6 +105,7 @@
           </div>
         </div>
       </div>
+      </div>
       <!-- end of rigth panel -->
     </div>
   </div>
@@ -100,7 +113,7 @@
   <br>
   <div>
     <div class="row">
-      <div class="col col-12 footer">© 2020 :: JA</div>
+      <div class="col col-12 div_footer">© 2020 :: JA</div>
     </div>
   </div>
 </body>
